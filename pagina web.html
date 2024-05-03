@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Catálogo de Licuados y Smoothies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #FFC0CB, #87CEEB);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 36px; /* Aumenta el tamaño de la fuente para "Cold Drinks" */
+        }
+        .empresa {
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        .producto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 8px;
+            background-color: #fff;
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+        }
+        .producto img {
+            max-width: 250px;
+            margin-bottom: 15px;
+        }
+        .nombre-producto {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 8px; /* Ajusta el margen inferior del nombre del producto */
+        }
+        .descripcion-producto {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+            padding: 0 20px;
+        }
+        .pregunta {
+            font-weight: bold;
+        }
+        
+        /* Animación de entrada */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cold Drinks</h1>
+    <div class="empresa">
+        <p>¿Quieres algo refrescante?</p>
+        <p>Te presentamos nuestros productos, hechos con los más altos estándares de calidad.</p>
+    </div>
+
+    <!-- Productos -->
+    <div class="producto">
+        <img src="C:\Users\Usuario\Desktop\pagina web\JPGs\jpg1.jpeg" alt="Licuado de Fresa">
+        <p class="nombre-producto">Tropical Drink</p>
+        <p class="descripcion-producto">Esta bebida es ideal para aquellas personas que necesitan energías para el día a día, ya que sus ingredientes aportan cantidades significativas que apoyan al rendimiento físico de la persona que la toma.</p>
+    </div>
+
+    <div class="producto">
+        <img src="C:\Users\Usuario\Desktop\pagina web\JPGs\jpg2.jpeg" alt="Nombre del producto">
+        <p class="nombre-producto">Asufres</p>
+        <p class="descripcion-producto">Esta bebida está diseñada para aquellas personas que les gusta experimentar lo nuevo, ya que su combinación de dulce hace que el paladar se derrita.</p>
+    </div>
+
+    <div class="producto">
+        <img src="C:\Users\Usuario\Desktop\pagina web\JPGs\jpg3.jpeg" alt="Nombre del producto">
+        <p class="nombre-producto">Grape</p>
+        <p class="descripcion-producto">Con esta bebida obtendrás una mezcla entre lo mágico, ya que con su combinación de ingredientes tu paladar disfrutará como nunca antes, gracias a su excelente sabor dado a las cerezas.</p>
+    </div>
+
+    <div class="producto">
+        <img src="C:\Users\Usuario\Desktop\pagina web\JPGs\jpg4.jpeg" alt="Nombre del producto">
+        <p class="nombre-producto">Cold strawberry</p>
+        <div class="descripcion-producto">
+            <div class="des">¿Quieres beber algo ligero sin la necesidad de que sea algo simple?</div>
+            <div class="respuesta">¡Con este delicioso jugo de frutas obtendrás lo que buscas!</div>
+        </div>
+    </div>
+
+    <div class="producto">
+        <img src="C:\Users\Usuario\Desktop\pagina web\JPGs\jpg5.jpeg" alt="Nombre del producto">
+        <p class="nombre-producto">Bu worms</p>
+        <div class="descripcion-producto">
+            <div class="des">¿Tienes niños en casa?</div>
+            <div class="respuesta">Con esta bebida eso no es un problema, en Cold Drinks también pensamos en los más pequeños del hogar, con esta bebida su niño disfrutará mucho del delicioso sabor que ofrecemos.</div>
+        </div>
+    </div>
+</body>
+</html>
